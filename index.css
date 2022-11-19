@@ -1,0 +1,30 @@
+/* aw hell nawmax got the css wyatts */
+* {
+	color: #c04141;
+}
+
+body {
+	background-color: #202225;
+	font-family: "Fira Sans", monospace;
+	flex-flow: column nowrap;
+	display: flex;
+	margin: 0;
+
+	.center {
+		color: blue;
+	}
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	flex-flow: column nowrap;
+}
+
+.links {
+	flex-flow: row nowrap;
+}
+
+a {
+	text-decoration: none;
+}
