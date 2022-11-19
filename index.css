@@ -1,24 +1,26 @@
-/* aw hell nawmax got the css wyatts */
+/* aw hell naw max got the css wyatts */
 * {
-	color: #c04141;
+	color: oklch(66.8% 0.163 24.12);
+}
+
+.pop-hover {
+	/* https://oklch.evilmartians.io/ */
+	transition-duration: 0.075s;
+	transition-timing-function: ease-out;
+	transform: scale(1) rotate(0deg);
+
+	&:hover {
+		transform: scale(1.1) rotate(5deg);
+	}
 }
 
 body {
-	background-color: #202225;
+	background-color: oklch(21.7% 0.006 258.36);
 	font-family: "Fira Sans", monospace;
 	flex-flow: column nowrap;
 	display: flex;
 	margin: 0;
-
-	.center {
-		color: blue;
-	}
-}
-
-.center {
-	display: flex;
 	align-items: center;
-	flex-flow: column nowrap;
 }
 
 .links {
@@ -27,4 +29,5 @@ body {
 
 a {
 	text-decoration: none;
+	justify-content: center;
 }
