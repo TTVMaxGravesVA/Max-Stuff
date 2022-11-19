@@ -20,6 +20,7 @@ body {
 	flex-flow: column nowrap;
 	display: flex;
 	margin: 0;
+	padding: 0 10vw;
 	align-items: center;
 }
 
