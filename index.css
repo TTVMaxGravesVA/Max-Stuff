@@ -1,6 +1,9 @@
 :root {
-	color: oklch(66.8% 0.163 24.12);
+	--text-color: oklch(66.8% 0.163 24.12);
 }
+/* these people are not okay~ - Tymon */
+/* true - Kyza */
+/* Facts ~~~~~~~~~~Max */
 
 .pop-hover {
 	/* https://oklch.evilmartians.io/ */
@@ -21,6 +24,8 @@ body {
 	margin: 0;
 	padding: 0 10vw;
 	align-items: center;
+
+	color: var(--text-color);
 }
 
 .links {
@@ -29,4 +34,12 @@ body {
 	a {
 		text-decoration: none;
 	}
+}
+
+header {
+	align-items: center;
+}
+
+a {
+	color: var(--text-color);
 }
