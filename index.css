@@ -1,9 +1,6 @@
 :root {
 	--text-color: oklch(66.8% 0.163 24.12);
 }
-/* these people are not okay~ - Tymon */
-/* true - Kyza */
-/* Facts ~~~~~~~~~~Max */
 
 .pop-hover {
 	/* https://oklch.evilmartians.io/ */
@@ -19,25 +16,27 @@
 body {
 	background-color: oklch(21.7% 0.006 258.36);
 	font-family: "Fira Sans", monospace;
-	flex-flow: column nowrap;
-	display: flex;
+
 	margin: 0;
 	padding: 0 10vw;
-	align-items: center;
 
 	color: var(--text-color);
 }
 
-.links {
-	flex-flow: row nowrap;
+header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 
-	a {
-		text-decoration: none;
+	> *:not(img) {
+		width: fit-content;
 	}
 }
 
-header {
-	align-items: center;
+.links {
+	a {
+		text-decoration: none;
+	}
 }
 
 a {
