@@ -1,5 +1,4 @@
-/* aw hell naw max got the css wyatts */
-* {
+:root {
 	color: oklch(66.8% 0.163 24.12);
 }
 
@@ -26,9 +25,8 @@ body {
 
 .links {
 	flex-flow: row nowrap;
-}
 
-a {
-	text-decoration: none;
-	justify-content: center;
+	a {
+		text-decoration: none;
+	}
 }
