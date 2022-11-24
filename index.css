@@ -17,8 +17,8 @@ body {
 	background-color: oklch(21.7% 0.006 258.36);
 	font-family: "Fira Sans", monospace;
 
-	margin: 0;
-	padding: 0 10vw;
+	margin: 100;
+	padding: 0 20vw;
 
 	color: var(--text-color);
 }
